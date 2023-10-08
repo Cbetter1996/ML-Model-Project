@@ -1,6 +1,7 @@
 # ML-Model-Project  
 本文档用于收录在学习机器学习和深度学习过程中的一些项目经验，仅供参考，如有错误请留言&指正。  
 
+
 ## Part 1-Environment  
 ### 整体环境配置  
 Mac版本：MacOS Big Sur 11.4  
@@ -9,6 +10,8 @@ Tensorflow版本：2.4.1
 Pip版本：23.2.1  
 Numpy版本：1.19.5  
 Pandas版本：1.4.3  
+scikit-learn版本：1.3.1  
+
 
 ### Tensorflow安装  
 经过好几天的失败尝试，终于把tensorflow安装成功和跑通。   
@@ -20,6 +23,10 @@ Step 5: 从这个地址下载tensorflow包，存在本地路径上。
 Step 6: pip install ~/Downloads/tensorflow-2.4.1-py3-none-any.whl，安装本地路径的包。  
 Step 7: 可选，安装完tensorflow后发现numpy和pandas版本冲突无法使用，如果发现冲突可以针对pandas的版本进行调整。  
 其他相关安装流程，[可参考](https://pianshen.com/ask/530814350740/)  
+
+
+### Sklearn安装  
+pip3 install scikit-learn  
 
 
 ## Part 2-Model Learning Project
