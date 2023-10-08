@@ -6,6 +6,7 @@
 该方法用于类别的映射，比如现在有[a,b,c,d]这几类，通过这些函数转为0/1。  
 https://zhuanlan.zhihu.com/p/33569866 
 
+
 ### 文本向量化 CountVectorizer/TfidfVectorizer
 文本向量化主要目的是将一串文本转化为一个矩阵。 
 
@@ -34,5 +35,4 @@ TF-IDF(term frequency–inverse document frequency)是一种用于信息检索�
 
 > 当有TF(词频)和IDF(逆文档频率)后，将这两个词相乘，就能得到一个词的TF-IDF的值。某个词在文章中的TF-IDF越大，那么一般而言这个词在这篇文章的重要性会越高，所以通过计算文章中各个词的TF-IDF，由大到小排序，排在最前面的几个词，就是该文章的关键词。
 
-相关原理详见文档相关介绍。
-https://zhuanlan.zhihu.com/p/31197209
+相关原理详见[文档相关介绍](https://zhuanlan.zhihu.com/p/31197209)。
