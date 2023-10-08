@@ -6,9 +6,23 @@
 该方法用于类别的映射，比如现在有[a,b,c,d]这几类，通过这些函数转为0/1。  
 https://zhuanlan.zhihu.com/p/33569866 
 
-### 文本向量化 TfidfVectorizer
-该函数主要应用了TF-IDF算法，相关原理详见文档相关介绍。
-https://zhuanlan.zhihu.com/p/67883024
+### 文本向量化 CountVectorizer/TfidfVectorizer
+文本向量化主要目的是将一串文本转化为一个矩阵。 
+
+比如以下文本
+> "I have a dog."   
+> "You have a dog and a cat."   
+> "He books a book."   
+> "No cost too great."
+
+将单词拆分转为词典  
+> {'have': 7, 'dog': 5, 'you': 11, 'and': 0, 'cat': 3, 'he': 8, 'books': 2, 'book': 1, 'no': 9, 'cost': 4, 'too': 10, 'great': 6}
+
+CountVectorizer是用0/1代表这个词是否出现过。  
+TfidfVectorizer是用TF-IDF值代表这个词的重要程度。   
+具体可参考[此文档](https://welts.xyz/2022/03/26/sklearn_text/)
+
+Note: TF-IDF算法，相关原理详见后文文档相关介绍。   
 
 
 ## TF-IDF算法
