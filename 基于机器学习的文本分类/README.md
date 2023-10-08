@@ -28,5 +28,13 @@ In this project, the given data includes paragraphs, paragraph categories and st
 国
 
 ## Data Cleaning  
+In this step, we need to clean the raw data so that the data can be provided for further model training.
 
+* paragraph categories
+Use encoder to convert categories into a matrix of 0/1 as Y_input.
+
+* paragraphs  
+  Step1 - Split the whole paragraphs into many key words.
+  Step2 - Check whether the key word is in stopwords or not. If in stopwords then remove this key word.
+  Step3 - Vectorizer the key words list into a matrix as X_input. The number in the matrix is TF-IDF importance.
 
