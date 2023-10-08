@@ -7,7 +7,7 @@ Mac版本：MacOS Big Sur 11.4
 Python版本：3.8.5  
 Tensorflow版本：2.4.1  
 Pip版本：23.2.1  
-Numpy版本：1.19.2  
+Numpy版本：1.19.5  
 Pandas版本：1.4.3  
 
 ### Tensorflow安装  
